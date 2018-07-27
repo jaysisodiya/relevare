@@ -9,8 +9,11 @@ Getting information is easy, getting relevant information is not - modern data p
 ## How to install and get it up and running
 
 step 1
+
 step 2
+
 ..
+
 step n
 
 <hr/>
