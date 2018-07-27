@@ -54,7 +54,7 @@ Financial - yahoo/google/bloomberg Major market indexes for each country
 
 ## Engineering challenges
 
-GDELT events volume - while good not challenging enough (3000 events per 15mins), will use all historical events load to examine kafka scalabitiy and tuning aspects. In extended implementation of Relevare, we can potentially consumer multitude of news sources live.. we can demonstrate this simply bringing in all historical events as fast as possible and define scaling limits of current implementation.
+GDELT events volume - while good not challenging enough (3000 events per 15mins), will use all historical events load to examine kafka scalabitiy and tuning aspects. In extended implementation of Relevare, we can potentially consumer multitude of news sources live.. we can demonstrate this simply bringing in all historical events as fast as possible and define scaling limits of current implementation. 400M events. 4TB data volume.
 
 Weather, Financial and Twitter volume - likely not significant
 
