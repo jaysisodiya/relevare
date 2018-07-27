@@ -23,8 +23,11 @@ step n
 ## Dataset
 
 GDELT - Global Database of Events, Language, and Tone
+
 Twitter -
+
 Weather - source TBD
+
 Financial - yahoo/google/bloomberg Major market indexes for each country
 
 ## Engineering challenges
