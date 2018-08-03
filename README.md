@@ -16,6 +16,8 @@ step 2
 
 step n
 
+Run Here: http://ec2-52-88-83-162.us-west-2.compute.amazonaws.com:5000/
+
 <hr/>
 
 ## Introduction
