@@ -1,0 +1,55 @@
+import string
+import random
+import MySQLdb
+
+cnt = 0
+username = ''
+userpop=1000
+randstring=string.ascii_uppercase + string.ascii_lowercase + string.digits
+
+db = MySQLdb.connect(host='10.0.0.25',user='relevareuser',passwd='insight2018',db='relevare')
+cursor1 = db.cursor()
+
+for i in string.ascii_uppercase:
+    for j in range(100,999):
+        for k in string.ascii_lowercase:
+            for m in string.digits:
+                for n in range(200,300):
+                    for p in string.ascii_lowercase[::-1]:
+                        cnt += 1
+                        username='{}{}{}{}{}{}'.format(random.choice(randstring),str(j),str(k),str(m),str(n),str(p))
+                        usertup=(username,username,'Jay','Sisodiya',94582,'CA','California','US','United States')
+                        userlst=[usertup]
+                        cursor1.executemany(
+                            """insert into users 
+                                (login, pass, fname, lname, zipcode, statecode, state, countrycode, country) 
+                            values 
+                                (%s, %s, %s, %s, %s, %s, %s, %s, %s)""",
+                            userlst)
+                        if cnt % (userpop/20) == 0:
+                            print("Done creating %s users" % "{:,}".format(cnt))
+                        if cnt >= userpop:
+                            break
+                    else:
+                        continue
+                    break
+                else:
+                    continue
+                break
+            else:
+                continue
+            break
+        else:
+            continue
+        break
+    else:
+        continue
+    break
+
+db.commit()
+cursor1.close()
+db.close()
+
+print(cnt)
+
+

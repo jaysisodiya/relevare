@@ -1,0 +1,17 @@
+Done creating 99,750,000 users
+    >>  C247o5238o A 247 o 5 238 o
+Done creating 99,800,000 users
+    >>  t247q4261m A 247 q 4 261 m
+Done creating 99,850,000 users
+    >>  E247s3284k A 247 s 3 284 k
+Done creating 99,900,000 users
+    >>  E247u3207i A 247 u 3 207 i
+Done creating 99,950,000 users
+    >>  o247w2230g A 247 w 2 230 g
+Done creating 100,000,000 users
+    >>  W247y1253e A 247 y 1 253 e
+100000000
+
+08062018 04:38pm to 06:04pm 6.7GB of db storage
+
+For next iterations need to adjust the loop.
