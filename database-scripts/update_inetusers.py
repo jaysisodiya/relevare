@@ -1,7 +1,11 @@
 import pandas as pd
 import MySQLdb as mysqldb
+import os
 
-db = mysqldb.connect(host='10.0.0.25',user='relevareuser',passwd='insight2018',db='relevare')
+myuser=os.environ['RELEVARE_USER']
+mypass=os.environ['RELEVARE_PASS']
+
+db = mysqldb.connect(host='10.0.0.25', user=myuser, passwd=mypass, db='relevare')
 cursor1 = db.cursor()
 
 df = pd.read_csv('/tmp/countries_by_internetusers.csv', keep_default_na=False)
