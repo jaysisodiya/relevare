@@ -4,10 +4,7 @@ msg_payload = ('kafkatest' * 20).encode()[:msg_size]
 print(msg_payload)
 print(len(msg_payload))
 
-bootstrap_servers='ec2-54-186-208-110.us-west-2.compute.amazonaws.com:9092,ec2-52-11-172-126.us-west-2.compute.amazonaws.com:9092,ec2-52-88-204-111.us-west-2.compute.amazonaws.com:9092,ec2-52-35-101-204.us-west-2.compute.amazonaws.com:9092'
-
-import time
-
+bootstrap_servers=''
 producer_timings = {}
 consumer_timings = {}
 

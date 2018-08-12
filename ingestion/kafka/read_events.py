@@ -15,9 +15,3 @@ print(df.head())
 print(df.Actor1Geo_CountryCode.unique())
 print(df.Actor1Geo_CountryCode.value_counts())
 
-
-#db = _mysql.connect(host='10.0.0.25',user='relevareuser',passwd='insight2018',db='relevare')
-#db.query("""select contcode from continents""")
-#r=db.store_result()    # collects all results in one shot and brings to client side, use_result() will keep on server
-#r.fetch_row(maxrows=0)  # can user r.fetch_row() for one row at a time
-
