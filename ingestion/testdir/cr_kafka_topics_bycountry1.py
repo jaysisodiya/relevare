@@ -13,7 +13,7 @@ import pickle
 #
 # Initialize the producer
 #
-brokerlist='ec2-54-186-208-110.us-west-2.compute.amazonaws.com:9092,ec2-52-11-172-126.us-west-2.compute.amazonaws.com:9092,ec2-52-88-204-111.us-west-2.compute.amazonaws.com:9092,ec2-52-35-101-204.us-west-2.compute.amazonaws.com:9092'
+brokerlist=''
 producer = KafkaProducer(bootstrap_servers=brokerlist)
 
 #
