@@ -2,7 +2,7 @@
 
 Getting information is easy, getting relevant information is not - modern data pipelines can help address the modern information deluge.
 
-[Link](#) to your presentation.
+[Link](https://bit.ly/RelevareDeck) to your presentation.
 
 <hr/>
 
@@ -16,7 +16,7 @@ step 2
 
 step n
 
-Run Here: http://ec2-52-88-83-162.us-west-2.compute.amazonaws.com:5000/
+Run Here: https://bit.ly/Relevare
 
 <hr/>
 
