@@ -1,6 +1,6 @@
 create table prefs (
   id 		int not null auto_increment,
-  usersid	varchar(20) not null,
+  usersid	int(11) not null,
   pref1  	varchar(100) null,
   pref2		varchar(100) null,
   pref3		varchar(100) null,

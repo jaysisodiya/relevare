@@ -266,3 +266,7 @@ mysql> alter table country_codes
     -> add column inet_rank int(3),
     -> add column population int(12) ;
 
+mysql> alter table country_codes 
+    -> add column alpha3code varchar(3) ;
+
+mysql> update country_codes a set alpha3code = (select distinct alpha3code from iso_countrycodes b where b.alpha2code = a.country_code);
